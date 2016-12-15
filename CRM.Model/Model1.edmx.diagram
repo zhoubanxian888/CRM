@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a637615fcd804133a117e90c4773c589" Name="Diagram1">
+        <EntityTypeShape EntityType="TZMCModel.ActionInfo" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TZMCModel.Books" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TZMCModel.Department" Width="1.5" PointX="3" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="TZMCModel.KeyWordsRank" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TZMCModel.R_UserInfo_ActionInfo" Width="1.5" PointX="7.5" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TZMCModel.RoleInfo" Width="1.5" PointX="3" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TZMCModel.SearchDetails" Width="1.5" PointX="7.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TZMCModel.UserInfo" Width="1.5" PointX="5.25" PointY="6" IsExpanded="true" />
+        <AssociationConnector Association="TZMCModel.FK_ActionInfoR_UserInfo_ActionInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="TZMCModel.FK_UserInfoR_UserInfo_ActionInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="TZMCModel.DepartmentActionInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="TZMCModel.RoleInfoActionInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="TZMCModel.UserInfoDepartment" ManuallyRouted="false" />
+        <AssociationConnector Association="TZMCModel.UserInfoRoleInfo" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
